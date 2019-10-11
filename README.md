@@ -1,6 +1,7 @@
 # git使用备注
 
 #### 新建项目
+
         echo "# git-use" >> README.md
         git init
         git add README.md
@@ -10,6 +11,7 @@
 
 
 #### 已有项目
+
         git remote add origin git@github.com:zhuimeikeji/git-use.git
         git push -u origin master
 
@@ -40,6 +42,7 @@
 User 用户名可以都用 git
 
 #### 同一个项目提交到多个平台
+
         git remote add github git@github.com/youname/youprojectname.git
         git remote add coding git@coding.net/youname/youprojectname.git
         git push github master
