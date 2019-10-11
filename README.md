@@ -17,11 +17,16 @@
 #### 关联多个平台的SSH KEY
 
 1. 生成指定SSH KEY
+
         ssh-keygen -t rsa -C "备注"
+
 2. 进入SSH目录，创建CONFIG
+
         cd ~/.ssh
         touch config
+
 3. 打开CONFIG，填写对应站点数据
+
         Host github.com
         HostName github.com
         User git
